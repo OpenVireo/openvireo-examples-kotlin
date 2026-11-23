@@ -1,5 +1,5 @@
 [versions]
-openvireo = "1.0.0"
+openvireo = "1.1.0"
 kotlin = "2.4.21"
 coroutines = "1.11.0"
 jna = "5.19.1"

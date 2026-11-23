@@ -9,8 +9,8 @@ Examples in other languages: [TypeScript](https://github.com/openvireo/openvireo
 ## Run them
 
 You need JDK 21. The Gradle wrapper fetches everything else. The build takes the core's jar
-(`openvireo-core-jvm` 1.0.0, natives for macOS, Linux and Windows inside) straight from the
-[core release](https://github.com/openvireo/openvireo-core/releases/tag/v1.0.0), so it needs no token.
+(`openvireo-core-jvm` 1.1.0, natives for macOS, Linux and Windows inside) straight from the
+[core release](https://github.com/openvireo/openvireo-core/releases/tag/v1.1.0), so it needs no token.
 
 ```sh
 git clone https://github.com/openvireo/openvireo-examples-kotlin
