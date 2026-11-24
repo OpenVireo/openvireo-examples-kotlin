@@ -4,7 +4,7 @@ Runnable examples for the [OpenVireo](https://openvireo.com) Kotlin binding (`co
 file per guide on [developer.openvireo.com](https://developer.openvireo.com). Each file holds the code from
 its guide's **Kotlin** tab, wrapped in a program you can run.
 
-Examples in other languages: [TypeScript](https://github.com/openvireo/openvireo-examples-typescript) · [Python](https://github.com/openvireo/openvireo-examples-python) · [Java](https://github.com/openvireo/openvireo-examples-java) · [Swift](https://github.com/openvireo/openvireo-examples-swift) · [C++](https://github.com/openvireo/openvireo-examples-cpp) · [ov CLI](https://github.com/openvireo/openvireo-examples-cli)
+Examples in other languages: [TypeScript](https://github.com/openvireo/openvireo-examples-typescript) · [Rust](https://github.com/openvireo/openvireo-examples-rust) · [Python](https://github.com/openvireo/openvireo-examples-python) · [Java](https://github.com/openvireo/openvireo-examples-java) · [Swift](https://github.com/openvireo/openvireo-examples-swift) · [C++](https://github.com/openvireo/openvireo-examples-cpp) · [ov CLI](https://github.com/openvireo/openvireo-examples-cli)
 
 ## Run them
 
