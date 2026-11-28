@@ -1,13 +1,11 @@
 [versions]
-openvireo = "1.1.0"
+openvireo = "1.2.2"
 kotlin = "2.4.21"
 coroutines = "1.11.0"
-jna = "5.19.1"
 
 [libraries]
 openvireo-core-jvm = { module = "com.openvireo:openvireo-core-jvm", version.ref = "openvireo" }
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
-jna = { module = "net.java.dev.jna:jna", version.ref = "jna" }
 
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }

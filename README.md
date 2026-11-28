@@ -9,8 +9,8 @@ Examples in other languages: [TypeScript](https://github.com/openvireo/openvireo
 ## Run them
 
 You need JDK 21. The Gradle wrapper fetches everything else. The build takes the core's jar
-(`openvireo-core-jvm` 1.1.0, natives for macOS, Linux and Windows inside) straight from the
-[core release](https://github.com/openvireo/openvireo-core/releases/tag/v1.1.0), so it needs no token.
+(`openvireo-core-jvm` 1.2.2, natives for macOS, Linux and Windows inside) from Maven Central, so it needs
+no token.
 
 ```sh
 git clone https://github.com/openvireo/openvireo-examples-kotlin
@@ -30,7 +30,7 @@ export OV_EMAIL=you@example.com OV_PASSWORD='...' OV_SECRET_KEY='A3-...'
 ./gradlew -q run --args="vaults-and-sharing"
 ```
 
-In your own project, depend on `com.openvireo:openvireo-core-jvm` from GitHub Packages (or
+In your own project, depend on `com.openvireo:openvireo-core-jvm` from Maven Central (or
 `openvireo-core-android` for Android): see [Kotlin and Java](https://developer.openvireo.com/bindings/kotlin-java/).
 
 ## The examples

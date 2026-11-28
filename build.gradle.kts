@@ -7,8 +7,7 @@ kotlin { jvmToolchain(21) }
 
 dependencies {
     implementation(libs.openvireo.core.jvm)
-    // The release jar carries no POM, so its two dependencies are listed here
-    implementation(libs.jna)
+    // JNA comes with the core (its POM); coroutines is listed because the examples use it directly
     implementation(libs.kotlinx.coroutines.core)
 }
 
